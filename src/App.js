@@ -136,7 +136,7 @@ const App = () => {
                   className="opt-container border-2 border-bg-indigo-500"
                 ></OtpInput>
 
-               {warn &&(<p className="text-yellow-500">wrong otp please check*</p>)} 
+               {warn &&(<p className="text-yellow-500">wrong otp please check</p>)} 
                 <p>
                   Didn’t receive the code?{" "}
                   <span className="underline" onClick={onSignup}>
